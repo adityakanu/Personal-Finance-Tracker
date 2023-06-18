@@ -12,45 +12,144 @@
 
 <body>
     <header>
-        <h1>LOGO</h1>
-
+        <!-- ---------------------heading --------------------->
+        <h1> Fin-Minder</h1>
+<!-- ---------------------------Navbar ----------------------------->
         <section class="menu">
             <ul class="menu-list">
-                <li>Home</li>
-                <li class="active">Products</li>
-                <li>About Us</li>
-                <li>Contact</li>
+                <li><a href="#hom">Home</a></li>
+                
+                <li><a href="#abot">About Us</a></li>
+                <li><a href="#faqs">FAQ</a></li>
+                <!-- Add a login button and link it to login.html-->
+                <li><a href="login.html">Login/SignUp</a></li>
+    
             </ul>
-
             <button>
+      <!-------------------------hamburger ------------------------------>
                 <i class="fas fa-times"></i>
                 <i class="fas fa-bars"></i>
             </button>
+
         </section>
     </header>
+   
 
-    <section class="main">
+    <section id="hom" class="main">
 
         <section class="left">
-            <p class="title">Jinga lala huh huh </p>
-            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
-                Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+            <p class="title">YOUR PERSONAL FINANCE TRACKER</p>
+            <p class="msg">"Master your money, master your life. Your financial future is your responsibility. 
+                Let ushelp you take responsibility for your money."</p>
             <button class="cta">Learn More</button>
         </section>
 
         <section class="right">
-            <img src="./images/img.svg" alt="Langing image">
+            <img src="./images/l.png" alt="Langing image">
         </section>
 
     </section>
+   
+    <section id="abot" class="about">
+        <section class="aleft">
+            <img src="./images/img.svg" alt="Langing image">
+        </section>
 
-    <script>
-        var menu = document.querySelector('.menu');
-        var menuBtn = document.querySelector('.menu button');
-        menuBtn.addEventListener('click', () => {
-            menu.classList.toggle('opened')
-        })
-    </script>
+        <section class="aright">
+            <h1>About Us</h1>
+            <p>Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income. 
+            It also helps you set financial goals and track your progress towards achieving them. 
+            Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income. 
+            It also helps you set financial goals and track your progress towards achieving them. 
+            Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income. 
+           
+           
+            </p>
+        
+                   </section>
+
+            </section>
+            
+            
+            
+<section id="faqs" class="faq">
+<h1>FAQs</h1>
+<div class="wrapper">
+  <div class="container">
+    <div class="question">
+      How do I verify my email?
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        Click the link in the verification email from verify@codepen.io (be sure to check your spam folder or other email tabs if it's not in your inbox).
+
+Or, send an email with the subject "Verify" to verify@codepen.io from the email address you use for your CodePen account.<br><br>
+
+
+      </div>
+    </div>
+  </div>
+  
+    <div class="container">
+    <div class="question">
+      My Pen loads infinitely or crashes the browser.
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the page.<br><br>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="question">
+      My Pen loads infinitely or crashes the browser.
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the page.<br><br>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="question">
+      My Pen loads infinitely or crashes the browser.
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the page.<br><br>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="question">
+      My Pen loads infinitely or crashes the browser.
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the page.<br><br>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+            </section>
+            <!-- add footer section  -->
+            <section class="foot">
+                <footer>
+                    <p>Fin-Minder &copy; 2023. All Rights Reserved</p>
+                </footer>
+            </section>
+            
+            <div id="back-to-top" class="back-to-top"></div>
+    <!-- link script.js to this Page -->
+    <script src="script.js"></script>
 
 
 </body>
