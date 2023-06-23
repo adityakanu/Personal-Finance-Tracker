@@ -2,165 +2,152 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link rel="stylesheet" href="./styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <title>Finance Tracker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Responsive Landing Page with NavBar</title>
 </head>
 
 <body>
-  <header>
-    <!-- ---------------------heading --------------------->
-    <h1> Fin-Minder</h1>
-    <!-- ---------------------------Navbar ----------------------------->
-    <section class="menu">
-      <ul class="menu-list">
-        <li>Home</li>
-        <li class="active">Products</li>
-        <li>About Us</li>
-        <li>Contact</li>
-      </ul>
-      <button>
-        <!-------------------------hamburger ------------------------------>
-        <i class="fas fa-times"></i>
-        <i class="fas fa-bars"></i>
-      </button>
+    <header>
+        <!-- ---------------------heading --------------------->
+        <h1> Fin-Minder</h1>
+<!-- ---------------------------Navbar ----------------------------->
+        <section class="menu">
+            <ul class="menu-list">
+                <li><a href="#hom">Home</a></li>
+                
+                <li><a href="#abot">About Us</a></li>
+                <li><a href="#faqs">FAQ</a></li>
+                <!-- Add a login button and link it to login.html-->
+                <li><a href="login.html" class="lin"> <i class="fa-sharp fa-solid fa-right-to-bracket fa-lg"></i></a></li>
+    
+            </ul>
+            <button>
+      <!-------------------------hamburger ------------------------------>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </section>
+    </header>
+   
+<!-------------------- hero section -------------->
+    <section id="hom" class="main">
+
+        <section class="left">
+            <p class="title">YOUR PERSONAL FINANCE TRACKER</p>
+            <p class="msg">"Master your money, master your life. Your financial future is your responsibility. 
+                Let ushelp you take responsibility for your money."</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="./images/l.png" alt="Langing image">
+        </section>
 
     </section>
-  </header>
+   <!-- about us section -->
+    <section id="abot" class="about">
+        <section class="aleft">
+            <img src="./images/img.svg" alt="Langing image">
+        </section>
 
-  <!-------------------- hero section -------------->
-  <section id="hom" class="main">
+        <section class="aright">
+            <h1>About Us</h1>
+            <p>Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income. 
+            It also helps you set financial goals and track your progress towards achieving them. 
+            Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income. 
+            It also helps you set financial goals and track your progress towards achieving them. 
+            Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income. 
+           
+           
+            </p>
+        
+                   </section>
 
-    <section class="left">
-      <p class="title">YOUR PERSONAL FINANCE TRACKER</p>
-      <p class="msg">"Master your money, master your life. Your financial future is your responsibility.
-        Let ushelp you take responsibility for your money."</p>
-      <button class="cta">Learn More</button>
-    </section>
-
-    <section class="right">
-      <img src="./images/l.png" alt="Langing image">
-    </section>
-
-  </section>
-  <!-- about us section -->
-  <section id="abot" class="about">
-    <section class="aleft">
-      <img src="./images/img.svg" alt="Langing image">
-    </section>
-
-    <section class="aright">
-      <h1>About Us</h1>
-      <p>Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income.
-        It also helps you set financial goals and track your progress towards achieving them.
-        Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income.
-        It also helps you set financial goals and track your progress towards achieving them.
-        Fin-Minder is a personal finance tracker that helps you keep track of your expenses and income.
-
-
-      </p>
-
-    </section>
-
-  </section>
+            </section>
+            
+            
+            <!------------- FAq section ---------------->
+<section id="faqs" class="faq">
+<h1>FAQs</h1>
+<div class="wrapper">
+  <div class="container">
+    <div class="question">
+      What is a personal finance tracker?
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        A personal financial tracker is a tool or piece of software that helps people monitor and manage their personal money. It enables users to keep track of their income, spending, savings, investments, and other financial activities in one location.<br><br>
 
 
-  <!------------- FAq section ---------------->
-  <section id="faqs" class="faq">
-    <h1>FAQs</h1>
-    <div class="wrapper">
-      <div class="container">
-        <div class="question">
-          How do I verify my email?
-        </div>
-        <div class="answercont">
-          <div class="answer">
-            Click the link in the verification email from verify@codepen.io (be sure to check your spam folder or other
-            email tabs if it's not in your inbox).
-
-            Or, send an email with the subject "Verify" to verify@codepen.io from the email address you use for your
-            CodePen account.<br><br>
-
-
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="question">
-          My Pen loads infinitely or crashes the browser.
-        </div>
-        <div class="answercont">
-          <div class="answer">
-            It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end
-            of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily
-            turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the
-            page.<br><br>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="question">
-          My Pen loads infinitely or crashes the browser.
-        </div>
-        <div class="answercont">
-          <div class="answer">
-            It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end
-            of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily
-            turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the
-            page.<br><br>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="question">
-          My Pen loads infinitely or crashes the browser.
-        </div>
-        <div class="answercont">
-          <div class="answer">
-            It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end
-            of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily
-            turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the
-            page.<br><br>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="question">
-          My Pen loads infinitely or crashes the browser.
-        </div>
-        <div class="answercont">
-          <div class="answer">
-            It's likely an infinite loop in JavaScript that we could not catch. To fix, add ?turn_off_js=true to the end
-            of the URL (on any page, like the Pen or Project editor, your Profile page, or the Dashboard) to temporarily
-            turn off JavaScript. When you're ready to run the JavaScript again, remove ?turn_off_js=true and refresh the
-            page.<br><br>
-
-
-          </div>
-        </div>
       </div>
     </div>
-  </section>
-  <!-- add footer section  -->
-  <section class="foot">
-    <footer>
-      <p>Fin-Minder &copy; 2023. All Rights Reserved</p>
-    </footer>
-  </section>
+  </div>
+  
+    <div class="container">
+    <div class="question">
+      Why should I use a personal finance tracker?
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        Using a personal money tracker has various advantages. It assists you in better understanding your financial condition, tracking your spending patterns, set and achieve financial objectives, and making smart budgeting, saving, and investment decisions. It also allows you to find areas where you may save money or improve your financial situation.
+        <br><br>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="question">
+      How does a personal finance tracker work?
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        Personal finance trackers often allow users to manually enter their income and spending or automatically import transactions from their bank accounts and credit cards. The program categorizes and organizes transactions through visualizations, charts, and reports, offering an overview of your financial activities.<br><br>
 
-  <div id="back-to-top" class="back-to-top"></div>
-  <!-- link script.js to this Page -->
-  <script src="script.js"></script>
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="question">
+      Are personal finance trackers compatible with mobile devices?
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        Personal financial monitors are mobile device compatible. Many money tracker applications for smartphones and tablets are available, allowing you to keep track of your finances while on the move. To keep you up to current on your financial behavior, these applications may include features such as receipt scanning, spending monitoring, and real-time notifications.<br><br>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="question">
+      Can personal finance trackers help with budgeting?
+    </div>
+    <div class="answercont">
+      <div class="answer">
+        Yes, personal financial trackers are fantastic budgeting tools. They let you establish budget restrictions for various categories, such as grocery, entertainment, or utilities, and track your spending in relation to those limits. The tracker may give real-time data on your expenditure, assisting you in staying on budget and making any modifications. in regard to budgeting.<br><br>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+            </section>
+            <!-- add footer section  -->
+            <section class="foot">
+                <footer>
+                    <p>Fin-Minder &copy; 2023. All Rights Reserved</p>
+                </footer>
+            </section>
+            
+            <div id="back-to-top" class="back-to-top"></div>
+    <!-- link script.js to this Page -->
+    <script src="script.js"></script>
 
 
 </body>
