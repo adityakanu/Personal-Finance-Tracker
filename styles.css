@@ -77,7 +77,9 @@ header h1 {
 .menu-list li.active,
 .menu-list li:hover {
     color: #ff5360;
+    transform: scale(1.2);
 }
+
 /* ---------------------------------------------------------NavBar CSS END--------------------------------------------- */
 /* back to top */
 .back-to-top {
